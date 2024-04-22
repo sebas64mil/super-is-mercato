@@ -14,7 +14,20 @@
 .user{
     display: flex;
     flex-direction: row;
-    border-style: solid;
     width: 20%;
-    
+    justify-content: space-evenly;
+    align-items: flex-end;
+margin-left: 25%;
+}
+
+.user :hover{
+color: rgb(0, 85, 255);
+
+}
+
+.user2{
+
+  display: flex;  
+justify-content: flex-end;
+width: 100%;
 }
