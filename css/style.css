@@ -1,11 +1,11 @@
 .cards-carousel{
 display: flex;
-border-style: solid;
+flex-direction: row;
+width: 80%;
 
 
 }
-.card{
-    border-style: solid;
-    border-color: aquamarine;
+.combosh3{
 
+margin-left: 2%;
 }
