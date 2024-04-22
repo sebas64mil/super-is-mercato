@@ -1,0 +1,11 @@
+.cards-carousel{
+display: flex;
+border-style: solid;
+
+
+}
+.card{
+    border-style: solid;
+    border-color: aquamarine;
+
+}
