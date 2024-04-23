@@ -74,37 +74,109 @@
           </div>
         </div>
       </nav>
+      <div class="d-flex align-items-center mw-100 justify-content-evenly ">
+        <div class="client-atentetion d-flex flex-column colorayuda1">
+          <div class="colorayuda2">
+            <h4>COMPLETA LA INFO Y CONTACTAMOS CONTIGO</h4>
+          </div>
+          <div class="d-flex flex-wrap flex-row justify-content-around">
+            <div class="mb-3 cabina-text">
+              <label for="nombre" class="form-label">Nombre</label>
+              <textarea class="form-control" id="nombre" rows="3"></textarea>
+            </div>
+      
+            <div class="mb-3 cabina-text">
+              <label for="apellido" class="form-label">Apellido</label>
+              <textarea class="form-control" id="apellido" rows="3"></textarea>
+            </div>
+      
+            <div class="mb-3 cabina-text">
+              <label for="cuenta" class="form-label">Cuenta</label>
+              <textarea class="form-control" id="cuenta" rows="3"></textarea>
+            </div>
+      
+            <div class="mb-3 cabina-text">
+              <label for="numero" class="form-label">Número</label>
+              <textarea class="form-control" id="numero" rows="3"></textarea>
+            </div>
+      
+            <div class="mb-3 cabina-text1">
+              <label for="problema" class="form-label">Problema</label>
+              <textarea class="form-control" id="problema" rows="3"></textarea>
+            </div>
+          </div>
+      
+          <!-- Botón de reset -->
+          <button type="button" class="btn btn-primary" onclick="resetearCajas()">Resetear Cajas</button>
+        </div>
+        <div class="client-atentetion d-flex flex-column">
+          <img src="/img/atencioncliente.jpg" alt="">
+          <img src="/img/Respuesta-al-cliente.jpg" alt="">
+          
+          
+          </div>
+      </div>
+      
+      <script>
+        function resetearCajas() {
+          // Selecciona todas las áreas de texto y las restablece a su valor predeterminado (cadena vacía)
+          document.querySelectorAll('textarea').forEach(function(textarea) {
+            textarea.value = '';
+          });
+        }
+      </script>
+      
 
-<div class="client-atentetion align-self-center">
-  <div><h4>
-
-  </h4>
-  </div>
-  <div>
-    <div class="mb-3 cabina-text">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    <div class="mb-3 cabina-text">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    <div class="mb-3 cabina-text">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-
-    <div class="mb-3 cabina-text">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
 
 
-  </div>
+
+<h4 class="ml-3">Locaciones</h4>
+<div class="d-flex flex-row justify-content-evenly ">
+
+<div class="mw-40 d-flex flex-column ">
+<img src="/img/maps.png" class="mw-100" alt="">
+<div class="d-flex flex-row mt-2">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+  </svg>
+  
+  <h6>Cra. 8h # 172-20, Bogotá</h6>
+</div> 
+
+<div class="d-flex flex-row mt-2">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+  </svg>
+  </svg>
+  
+  <h6>6671090</h6>
+</div>  
 </div>
 
+
+<div class="mw-40 d-flex flex-column">
+  <img src="/img/maps.png" class="mw-100" alt="">
+  <div class="d-flex flex-row mt-2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+    </svg>
+    
+    <h6>Cra. 8h # 172-20, Bogotá</h6>
+  </div>  
+
+  <div class="d-flex flex-row mt-2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+    </svg>
+    
+    <h6>6671090</h6>
+  </div>  
+  </div>
+
+
+</div>
 
 <footer class="d-flex flex-row  justify-content-around mt-5 colorfooter pt-3">
 <div>

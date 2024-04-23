@@ -42,12 +42,40 @@ text-decoration: underline;
 
 .client-atentetion{
 
-    width: 40%;
-    border-style: solid;
-    border-color: aqua;
+    width: 30%;
+    margin: 1%;
 
 }
 
 .cabina-text{
     width: 40%;
+   
+}
+
+.cabina-text1{
+    width: 70%;
+}
+
+.mw-40{
+    width: 20%;
+}
+.ml-3{
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+.colorayuda1{
+    background-color: #e0705e;
+}
+.colorayuda2{
+    background-color: #803f36;
+    padding: 2%;
+}
+.btn-primary{
+    background-color: #803f36;
+    width: 90%;
+    align-self: center;
+    margin-bottom: 2%;
+}
+.form-control{
+    background-color: rgb(232, 232, 232);
 }
