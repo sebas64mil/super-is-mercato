@@ -22,7 +22,7 @@
     width: 20%;
     justify-content: space-evenly;
     align-items: flex-end;
-margin-left: 25%;
+margin-left: 15%;
 }
 
 .user :hover{
@@ -46,5 +46,5 @@ padding: 0%;
     color: rgb(255, 255, 255);
 }
 .tamañologo{
-    width: 50%;
+    width: 60%;
 }
