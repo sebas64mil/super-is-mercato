@@ -39,3 +39,15 @@ text-decoration: underline;
 .card-title:hover{
 text-decoration: underline;
 }
+
+.client-atentetion{
+
+    width: 40%;
+    border-style: solid;
+    border-color: aqua;
+
+}
+
+.cabina-text{
+    width: 40%;
+}
