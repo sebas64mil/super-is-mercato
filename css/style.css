@@ -25,3 +25,11 @@ margin-left: 2%;
     width: 80%;
     align-self: center;
 }
+.btn-primary{
+    background-color: #b85a4c;
+    border-color: #b85a4c;
+}
+.btn-primary:hover{
+    background-color: #924f5a;
+    border-color: #924f5a;
+}

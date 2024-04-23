@@ -1,7 +1,7 @@
 .container-fluid{
     display: flex;
     flex-direction: column;
-    background-color: #e26d5c;
+    background-color: #b85a4c;
     
 
 }
@@ -14,7 +14,7 @@
 }
 .collapse{
     width: 101.5%;
-    background-color: #723d46;
+    background-color: #803f36;
 }
 .user{
     display: flex;
@@ -26,7 +26,7 @@ margin-left: 15%;
 }
 
 .user :hover{
-color: white;
+text-decoration: underline;
 
 }
 
@@ -40,10 +40,24 @@ width: 100%;
 padding: 0%;
 }
 .nav-link {
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
 }
+
+.nav-link:hover{
+    color: rgb(84, 84, 84);
+
+}
+
 .dropdown-toggle{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.dropdown-toggle:hover{
+    color: rgb(84, 84, 84);
 }
 .tamañologo{
     width: 60%;
