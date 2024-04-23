@@ -8,12 +8,15 @@ width: 80%;
 .combosh3{
 
 margin-left: 2%;
+font-family: "Lato", sans-serif;
+text-decoration: underline;
 }
 .combosh4{
 
     margin-left: 4%;
     margin-bottom: 1%;
     margin-top: 1%;
+    font-family: "Lato", sans-serif;
     }
 .icons{
     width: 5%;
@@ -32,4 +35,7 @@ margin-left: 2%;
 .btn-primary:hover{
     background-color: #924f5a;
     border-color: #924f5a;
+}
+.card-title:hover{
+text-decoration: underline;
 }
